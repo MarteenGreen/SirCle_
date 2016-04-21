@@ -45,9 +45,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AndrewMenus\PauseMenu.cs" />
-     <Compile Include="Assets\AndrewMenus\SettingsMenu.cs" />
-     <Compile Include="Assets\AndrewMenus\StartScreen.cs" />
+     <Compile Include="Assets\AndrewMenus\Scripts\KeyBinding.cs" />
+     <Compile Include="Assets\AndrewMenus\Scripts\KeyboardManager.cs" />
+     <Compile Include="Assets\AndrewMenus\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\AndrewMenus\Scripts\SettingsMenu.cs" />
+     <Compile Include="Assets\AndrewMenus\Scripts\StartScreen.cs" />
      <Compile Include="Assets\Scripts\Game\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Player\CharacterMotor.cs" />
      <Compile Include="Assets\Scripts\Player\DealDamage.cs" />
@@ -56,17 +58,11 @@
      <Compile Include="Assets\Scripts\Player\RangedAttack.cs" />
      <Compile Include="Assets\Scripts\Player\ScriptProjectile.cs" />
      <None Include="Assets\Scripts\Outline_Glow.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
