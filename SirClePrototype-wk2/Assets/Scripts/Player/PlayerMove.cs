@@ -89,10 +89,24 @@ public class PlayerMove : MonoBehaviour
 		for (int i=0; i < floorCheckers.Length; i++)
 			floorCheckers[i] = floorChecks.GetChild(i);
 	}
-	
+
 	//get state of player, values and input
 	void Update()
 	{	
+		// Move between 2 layers/lanes
+		if(Input.GetKeyDown(KeyCode.W))
+		{
+			Vector3 tmpPos = transform.position; // Store all Vector3
+			tmpPos.z = 1.0f; // assign individual Z axes
+			transform.position = tmpPos; // Assign back all Vector3
+		}
+		if(Input.GetKeyDown(KeyCode.S))
+		{
+			Vector3 tmpPos = transform.position; // Store all Vector3
+			tmpPos.z = 0.0f; // assign individual Z axes
+			transform.position = tmpPos; // Assign back all Vector3
+		}
+
 		//stops rigidbody "sleeping" if we don't move, which would stop collision detection
 		rigid.WakeUp();
 		//handle jumping
