@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AndrewMenus\Scripts\KeyBinding.cs" />
+     <Compile Include="Assets\AndrewMenus\Scripts\KeyInfo.cs" />
      <Compile Include="Assets\AndrewMenus\Scripts\KeyboardManager.cs" />
      <Compile Include="Assets\AndrewMenus\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\AndrewMenus\Scripts\SettingsMenu.cs" />
